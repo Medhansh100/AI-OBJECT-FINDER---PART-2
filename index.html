@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>A.I Music Web App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+</head>
+
+<body background="https://tse4.explicit.bing.net/th?id=OIP.dhkwvqGVDWXCjpyluGtxRgHaE7&pid=Api&P=0">
+
+    <h1 id="heading">OBJECT FINDER</h1>
+    <br>
+    <p id="note_1">Type the name of the object in the textbox and click on start button.</p>
+    <p id="note_2">NOTE : the input names which you will give should match the Coco model then only it will detect</p>
+    <br>
+    <br>
+    <div>
+        <label class="label">Object Name</label>
+        <br>
+        <input type="text" id="object" placeholder="enter object name">
+        <button id="start" onclick="start()">START</button>
+    </div>
+    <span>
+        <Label id="status" style="background-color:red ;"></Label>
+        <label id="name" style="background-color:orange ;"></label>
+    </span>
+
+</body>
+<script src="main.js"></script>
+</html>
